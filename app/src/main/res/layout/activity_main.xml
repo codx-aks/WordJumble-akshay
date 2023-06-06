@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screenshot_2023_05_13_at_3_24_31_pm"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="505dp"
+        android:layout_height="248dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/screenshot_2023_05_13_at_3_25_59_pm"
+        tools:ignore="ImageContrastCheck,VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="60dp"
+        android:background="@drawable/textrounded"
+        android:text="@string/word"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.424" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="180dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="60dp"
+        android:background="@drawable/textrounded"
+        android:text="@string/clue"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.602"
+        tools:ignore="VisualLintOverlap" />
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="298dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="50dp"
+        android:background="@drawable/rounded"
+        android:clickable="true"
+        android:ems="10"
+        android:focusable="true"
+        android:hint="@string/type_the_word"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.465" />
+
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="298dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="50dp"
+        android:background="@drawable/rounded"
+        android:clickable="true"
+        android:ems="10"
+        android:focusable="true"
+        android:gravity="start|top"
+        android:hint="@string/enter_the_clue"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1"
+        app:layout_constraintVertical_bias="0.211" />
+
+    <ImageButton
+        android:id="@+id/start"
+        android:layout_width="164dp"
+        android:layout_height="71dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.901"
+        app:srcCompat="@drawable/screenshot_2023_05_13_at_3_26_54_pm"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/crown"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.754"
+        app:srcCompat="@drawable/_7ec4b3f0dc30da8b30e079b4b070baf_three_point_crown_thin_icon" />
+
+    <TextView
+        android:id="@+id/hs"
+        android:layout_width="110dp"
+        android:layout_height="52dp"
+        android:fontFamily="sans-serif-black"
+        android:scrollbarDefaultDelayBeforeFade="0"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintStart_toEndOf="@+id/crown"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.754" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

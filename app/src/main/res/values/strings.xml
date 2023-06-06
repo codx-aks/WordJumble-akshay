@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Word Jumble</string>
+    <string name="word">Word</string>
+    <string name="clue">Clue</string>
+    <string name="type_the_word">type the word</string>
+    <string name="enter_the_clue">enter the clue</string>
+    <string name="todo">TODO</string>
+    <string name="toDO">TODO</string>
+    <string name="code">CLUE</string>
+    <string name="okay">Okay</string>
+    <string name="score">     SCORE :      </string>
+    <string name="highscore">0</string>
+</resources>
